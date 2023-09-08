@@ -1,0 +1,128 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    background-color: #fff;
+    height: 100vh;
+}
+
+#root {
+    margin: auto;
+    max-width: 1920px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+}
+
+.container {
+    max-width: 1920px;
+}
+
+.search {
+    background-color: #EDEDF0;
+    max-width: 668px;
+    min-width: 668px;
+    width: 100%;
+    height: 48px;
+    flex-shrink: 0;
+    border-radius: 99px;
+    color: #19191D;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 158%;
+    letter-spacing: 0.15px;
+    padding-left: 56px;
+    padding-left: 56px;
+}
+
+.icon-container {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 48px;
+}
+
+.top-watch {
+    width: 100%;
+    min-width: 104px;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-style: normal;
+    line-height: 150%; /* 30px */
+    letter-spacing: 0.15px;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-sm {
+    background-color: white;
+    color: #2264D1;
+    border-radius: 4px;
+    border: 1px solid #9DC2FF;
+    height: 40px;
+    text-transform: none;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.btn:hover {
+    background-color: white;
+}
+
+.select {
+    border-radius: 4px;
+    border: 1px solid #5A5B6A;
+    background-color: white;
+    color: #19191D;
+    font-size: 14px;
+    height: 36px;
+    max-height: 36px;
+    min-height: 36px;
+    border-radius: 4px;
+}
+
+.products-box {
+    box-shadow: 0px 2px 4px 0px rgba(90, 91, 106, 0.24), 0px 1px 2px 0px rgba(58, 58, 68, 0.24);
+    margin: 52px auto;
+    height: fit-content;
+    padding: 16px;
+    min-width: 100%;
+}
+
+.filters-box {
+    width: 245px;
+    min-width: 245px;
+}
+
+.card {
+    width: 340px;
+}
+
+.index {
+    right: -8px;
+    top: -16px;
+    display: flex;
+    width: 20px;
+    height: 20px;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+    color: #FFF;
+    text-align: center;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.75px;
+    text-transform: uppercase;
+    border-radius: 99px;
+    background: #F44336;
+}
